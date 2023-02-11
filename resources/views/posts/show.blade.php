@@ -59,7 +59,7 @@
 
         </div>
 
-        <div class="container text-center">
+        {{-- <div class="container text-center">
 
             <a href="#" class="">
                 <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-3">
@@ -76,7 +76,7 @@
                     Becas
                 </button>
             </a>
-        </div>
+        </div> --}}
 
     </div>
 

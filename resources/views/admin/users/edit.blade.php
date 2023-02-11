@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Edufree Panel administrador')
+@section('title', 'EWAP Panel administrador')
 
 @section('content_header')
-    <h1>Edufree Panel Administrador</h1>
+    <h1>EWAP Panel Administrador</h1>
 @stop
 
 @section('content')

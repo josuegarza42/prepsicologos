@@ -1,14 +1,14 @@
 @extends('adminlte::page')
 
-@section('title', 'Edufree Panel administrador')
+@section('title', 'EWAP Panel administrador')
 
 @section('content_header')
-    <h1>Crear nueva Edufree</h1>
+    <h1>Crear nueva EWAP</h1>
 @stop
 
 @section('content')
-    <p>Bienvenido al panel de administracion de Edufree</p>
-    <p>Crear nueva materia</p>
+    <p>Bienvenido al panel de administracion de EWAP</p>
+    <p>Crear nueva categoria</p>
 
     <div class="card">
         <div class="card-body">
@@ -33,7 +33,7 @@
 
             </div>
 
-            {!! Form::submit('Crear Materia', ['class' => 'btn btn-primary']) !!}
+            {!! Form::submit('Crear categoria', ['class' => 'btn btn-primary']) !!}
 
             {!! Form::close() !!}
         </div>

@@ -1,21 +1,21 @@
 @extends('adminlte::page')
 
-@section('title', 'Edufree Panel administrador')
+@section('title', 'EWAP Panel administrador')
 
 @section('content_header')
-    <h1>Lista de Materias</h1>
+    <h1>Lista de Posts</h1>
 
     @can('admin.categories.create')
         <a class="btn btn-primary float-right" href="{{ route('admin.categories.create') }}">
-            Agregar Materias
+            Agregar Categoria
         </a>
     @endcan
 
 @stop
 
 @section('content')
-    <p>Bienvenido al panel de administracion de Edufree </p>
-    <p>Lista Materias</p>
+    <p>Bienvenido al panel de administracion de EWAP </p>
+    <p>Lista Posts</p>
 
     @if (session('info'))
         <div class="alert alert-success">

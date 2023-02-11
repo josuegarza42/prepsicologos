@@ -4,7 +4,7 @@
         <img class="w-full h-72 object-cover object-center" src="{{ Storage::url($post->image->url) }}" alt="">
     @else
         <img class="w-full h-72 object-cover object-center"
-            src="https://i.ibb.co/qnJLzhv/1.png" alt="">
+            src="https://i.ibb.co/RBJfK31/EWAP.png" alt="">
     @endif
 
     <div class="px-6 py-4">

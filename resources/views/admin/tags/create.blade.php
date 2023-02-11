@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title', 'Edufree Panel administrador')
+@section('title', 'EWAP Panel administrador')
 
 @section('content_header')
     <h1>Crear tag</h1>
 @stop
 
 @section('content')
-    <p>Bienvenido al panel de administracion de Edufree </p>
+    <p>Bienvenido al panel de administracion de EWAP </p>
     <div class="card">
         <div class="card-body">
             {!! Form::open(['route' => 'admin.tags.store']) !!}

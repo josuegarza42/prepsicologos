@@ -1,4 +1,4 @@
-<nav class="bg-[#F7CB2C]" x-data="{ open: false }">
+<nav class="bg-[#171A4A]" x-data="{ open: false }">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-16">
 
@@ -26,12 +26,12 @@
                 <!-- logo-->
                 <a href="/" class="flex-shrink-0 flex items-center text-lg text-white">
                      <img class="block lg:hidden h-8 w-auto rounded-md mr-3"
-                        src="https://i.ibb.co/qnJLzhv/1.png" alt="Edufree"> 
+                        src="https://ibb.co/RBJfK31" alt="EWAP"> 
 
  
 
                     <img class="hidden lg:block h-8 w-auto rounded-md mr-3"
-                        src="https://i.ibb.co/qnJLzhv/1.png" alt="Edufree"> Edufree
+                        src="https://ibb.co/RBJfK31" alt="EWAP"> EWAP
                 </a>
                 <!-- menu lg-->
                 <div class="hidden sm:block sm:ml-6">

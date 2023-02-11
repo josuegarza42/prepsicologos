@@ -1,15 +1,15 @@
 @extends('adminlte::page')
 
-@section('title', 'Edufree Panel administrador')
+@section('title', 'EWAP Panel administrador')
 
 @section('content_header')
-    <h1>Edufree Panel Administrador</h1>
+    <h1>EWAP Panel Administrador</h1>
     <a href="{{ route('admin.roles.create') }}" class="btn btn-success btn-sm float-right">Nuevo role</a>
     <p>Lista de roles</p>
 @stop
 
 @section('content')
-    <p>Bienvenido al panel de administracion de Edufree </p>
+    <p>Bienvenido al panel de administracion de EWAP </p>
 
     @if (session('info'))
         <div class="alert alert-success">

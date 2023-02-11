@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Edufree</b>Admin',
+    'logo' => '<b>EWAP</b>Admin',
     'logo_img' => 'vendor/adminlte/dist/img/1.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -269,12 +269,13 @@ return [
         ],
 
         [
-            'text' => 'Materias',
+            'text' => 'Categorias',
             'route'  => 'admin.categories.index',
             'icon' => 'fab fa-fw fa-buffer',
             'active' => ['admin/categories*'],
             'can'  => 'admin.categories.index',
         ],
+
 
         [
             'text' => 'Tags',
@@ -285,15 +286,15 @@ return [
         ],
 
 
-        ['header' => 'Opciones de Edufree '],
+        ['header' => 'Opciones de EWAP '],
         [
-            'text'       => 'Lista de clases',
+            'text'       => 'Lista de posts',
             'route'        => 'admin.posts.index',
             'icon' =>    'fas fa-fw fa-clipboard',
             'can'  => 'admin.posts.index',
         ],
         [
-            'text'       => 'Crear una nueva clase',
+            'text'       => 'Crear una nuevo posts',
             'route'        => 'admin.posts.create',
             'icon' =>    'fas fa-fw fa-file',
             'can'  => 'admin.posts.create',

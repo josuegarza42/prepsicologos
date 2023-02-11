@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="container py-8 bg-[#F3E2EC]">
+    <div class="container py-8 bg-[#FFFFFF]">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             @foreach ($posts as $post)
                 <article class="w-full h-80 bg-cover bg-center rounded-md @if ($loop->first) md:col-span-2 @endif"

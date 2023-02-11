@@ -1,11 +1,11 @@
 @extends('adminlte::page')
 
-@section('title', 'Edufree Panel administrador')
+@section('title', 'EWAP Panel administrador')
 
 @section('content_header')
-    <a href="{{ route('admin.posts.create') }}" class="btn btn-success btn-sm float-right">Nuevo Clase</a>
+    <a href="{{ route('admin.posts.create') }}" class="btn btn-success btn-sm float-right">Nuevo Post</a>
 
-    <h1>Edufree Panel Administrador</h1>
+    <h1>EWAP Panel Administrador</h1>
     <p>Listado de clases</p>
 @stop
 
